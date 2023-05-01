@@ -29,7 +29,7 @@ public class StudentsListActivity extends AppCompatActivity {
         listView.setAdapter(adapter);
     }
 
-    /*public void onSendBtnClick(View view){
+    public void onSendBtnClick(View view){
         TextView textView = (TextView) findViewById(R.id.text);
 
         Intent intent = new Intent(Intent.ACTION_SEND);
@@ -37,5 +37,5 @@ public class StudentsListActivity extends AppCompatActivity {
         intent.putExtra(Intent.EXTRA_TEXT, textView.getText().toString());
         intent.putExtra(Intent.EXTRA_SUBJECT, "Список студентів");
         startActivity(intent);
-    }*/
+    }
 }

@@ -8,6 +8,13 @@
     android:orientation="vertical"
     tools:context=".StudentsListActivity">
 
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Список студентів"
+        android:textSize="18sp"/>
+
     <ListView
         android:id="@+id/studentsList"
         android:layout_width="match_parent"
